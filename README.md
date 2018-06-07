@@ -10,7 +10,7 @@ Each application lives in its own repo and that repo has one or more members of 
 ## Pull Requests
 PRs can be because the repo has a listed bug, a request for enhancement or active feature development underway. A committer might also have an original idea to improve the code or add functionality without it being on a roadmap or bug list. Regardless of the origination of the change, it is crucial that the ground rules are clear and understood around how to contribute and what to expect from committers. Chief amongst this is acceptance that Committers have the final say and are, like everyone else, busy with various things. So, everyone needs to respect timelines and understand that PRs might not be processed immediately.
 
-A [SAMPLE_PR_TEMPLATE.md](sample PR template) is provided as a starting point.
+A [PULL_REQUEST_TEMPLATE.md](sample PR template) is provided as a starting point.
 
 Prior to any pull request, every effort should be made to get committers and contributors together to discuss the work, agree on the design and align expectations. No one should be surprised to see a PR nor should they be impatient for a merge. Equally, committers should make every effort to be available to discuss potential contributions and to honour any commitments to peer review/pair on the code.
 
