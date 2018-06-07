@@ -28,6 +28,11 @@ GitHub presets will be used to determine the preferred approach to merging. This
 ## Releasing
 TODO
 
+Feature switching
+
+## Testing Standards
+TODO
+
 ## Coding Standards
 TODO
 
