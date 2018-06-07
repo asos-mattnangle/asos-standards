@@ -8,7 +8,7 @@ Please read each section carefully:
 
 The first thing to do before starting to work on your feature would be to have a conversation with the team about it, we may have some pointers or examples that might make your life much easier!
 
-Jump into the `#tech-web-sitechrome` channel and give us a shout, or come around the Web area and have the conversation face to face!
+Jump into the `#<your slack channel name here>` channel and give us a shout, or come around the Web area and have the conversation face to face!
 
 The other thing you will need before you start is a Jira ticket describing what it is that you're set to do, or if its a bug make sure there are clear reproduction steps on the description.
 
