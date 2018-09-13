@@ -14,7 +14,7 @@ The other thing you will need before you start is a [Jira ticket](https://asosmo
 
 If your team doesn't have access or doesn't use Jira, we'll create the ticket for you.
 
-Things to talk about on our first conversation:
+Things to talk about in our first conversation:
 
 * Planned implementation
 * Feature toggle approach
@@ -56,9 +56,9 @@ Broadly we're in-tune with the following style guides:
 
 ### Feature toggles
 
-The preferred approach for new features is to wrap them on a feature toggle instead of making the changes directly. This is evaluated on a case by case basis, we probably would have talked about this in our initial discussion.
+The preferred approach for new features is to wrap them in a feature toggle instead of making the changes directly. This is evaluated on a case by case basis, we probably would have talked about this in our initial discussion.
 
-For more details on how feature toggles work and how to use them please refer to [this document](docs/feature-toggles.md).
+For more details on how feature toggles work and how to use them, please refer to [this document](docs/feature-toggles.md).
 
 ### Unit tests
 
@@ -76,21 +76,21 @@ Once you're confident your branch is ready to review, open a PR against `develop
 
 Please make sure you fill the PR template correctly, stating the Jira ticket, changelog and the checkboxes.
 
-At this point you will need at least one approval from someone in the team before the QA process can start.
+At this point you will need at least one approval from someone in your team before the QA process can start.
 
 After the first PR approval, a QA can begin the testing process. Following the agreed Test Plan your team's QA will test your feature. We can lend a test environment if required.
 
-When your feature has been fully tested, you now need a second approval from our team to make sure everything  still makes sense.
+When your feature has been fully tested, you now need a second approval from our team to make sure everything still makes sense.
 
 You can also have someone on your team review the code as well to have more confidence. The more approvals the better!
 
 ## Merging and deploying
 
-When your feature branch/PR has been tested and has two approvals from our team, it is then ready to merge. Please contact our team to action the merge.
+When your feature branch/PR has been tested and has two approvals from our team, it is then ready to merge. Please contact the maintainer team to action the merge.
 
-After the merge has happened, the resulting build can be promoted to integrated environments such as PT02 or PreProd.
+After the merge has happened, the resulting build can be promoted to integrated environments such as PT02.
 
-For deployment to Production you will have to wait until our next scheduled weekly release.
+For deployment to Production, you will have to wait until our next scheduled release (weekly for some teams, adhoc for others).
 
 After the release has happened, if your feature was behind a feature toggle, you can now test it in Production to make sure everything works as expected.
 
@@ -98,4 +98,4 @@ If the feature has been deemed to be working well it can now be activated by def
 
 ## Removing toggle and Celebrating
 
-After your feature is live and toggled on by default it's now time to remove the toggle code and celebrate! 🍻
+After your feature is live and toggled on by default, it's now time to remove the toggle code (don't expect the maintainer team to do this) and celebrate! 🍻
