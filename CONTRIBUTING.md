@@ -10,7 +10,7 @@ The first thing to do before starting to work on your feature would be to have a
 
 Jump into the `#<your slack channel name here>` channel and give us a shout, or come around the Web area and have the conversation face to face!
 
-The other thing you will need before you start is a [Jira ticket](https://asosmobile.atlassian.net/browse/WD) describing what it is that you're set to do, or if its a bug make sure there are clear reproduction steps on the description.
+The other thing you will need before you start is a Jira ticket describing what it is that you're set to do, or if its a bug make sure there are clear reproduction steps on the description.
 
 If your team doesn't have access or doesn't use Jira, we'll create the ticket for you.
 
