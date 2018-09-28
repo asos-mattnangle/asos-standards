@@ -58,7 +58,7 @@ Broadly we're in-tune with the following style guides:
 
 The preferred approach for new features is to wrap them in a feature toggle instead of making the changes directly. This is evaluated on a case by case basis, we probably would have talked about this in our initial discussion.
 
-For more details on how feature toggles work and how to use them, please refer to [this document](docs/feature-toggles.md).
+For more details on how feature toggles work and how to use them, please refer to the relevant repo.
 
 ### Unit tests
 
