@@ -26,13 +26,13 @@ GitHub presets will be used to determine the preferred approach to merging. This
 
 
 ## Releasing
-TODO
+Refer to each repo's [CONTRIBUTING.md](CONTRIBUTING.md) for details on how releases are done and at what frequency. This can and does change from repo to repo depending on a number of factors so please respect the chosen cadence.
 
-Feature switching
+Feature switching is typically also used as part of the move to CI/CD. Details are documented in the relevant location in Github.
 
 ## Testing Standards
-TODO
+Refer to each repo's [CONTRIBUTING.md](CONTRIBUTING.md) for details on how releases are tested, both from an automation and tooling point of view. Frequency is obviously dependent on a number of factors, including the type of application. This can and does vary from repo to repo depending on a number of factors so please respect the chosen cadence.
 
 ## Coding Standards
-TODO
+Refer to each repo's [CONTRIBUTING.md](CONTRIBUTING.md) for what coding standards and practises are used. Details can and do vary from repo to repo,  depending on a number of factors so please respect the chosen approach.
 
